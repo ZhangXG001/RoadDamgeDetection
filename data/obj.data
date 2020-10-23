@@ -1,0 +1,7 @@
+classes= 4
+train =  /home/disk1/zxg/Dataset/GRDDC-GAN/2007_train.txt
+valid  = /home/disk1/zxg/Dataset/GRDDC-GAN/2007_val.txt
+names = /home/AirsZXG/darknet-AB/data/obj.names
+backup =  /home/AirsZXG/darknet-AB/GRDDCbackup/1
+eval=coco
+
