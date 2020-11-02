@@ -1,6 +1,6 @@
 # RoadDamgeDetection
 
-Fast and accurate road damage detection is essential for the automatization of road inspection. This paper describes our solution submitted to the Global Road Damage Detection Challenge of the 2020 IEEE International Conference on Big Data, for typical road damage detection on digital images based on deep learning. The recently proposed YOLOv4 is chosen as the baseline network, while the effects of data augmentation, transfer learning, Optimized Anchors, and their combination are evaluated. We proposed a novel road damage data generation method based on a generative adversarial network, which can generate multi-class samples with a single model. The evaluation results demonstrate the effectiveness of different tricks and their combinations on the road damage detection task, which provides a reference for practical application.
+  Fast and accurate road damage detection is essential for the automatization of road inspection. This paper describes our solution submitted to the Global Road Damage Detection Challenge of the 2020 IEEE International Conference on Big Data, for typical road damage detection on digital images based on deep learning. The recently proposed YOLOv4 is chosen as the baseline network, while the effects of data augmentation, transfer learning, Optimized Anchors, and their combination are evaluated. We proposed a novel road damage data generation method based on a generative adversarial network, which can generate multi-class samples with a single model. The evaluation results demonstrate the effectiveness of different tricks and their combinations on the road damage detection task, which provides a reference for practical application.
   
 ## Datesets
 
@@ -17,13 +17,13 @@ git clone https://github.com/ZhangXG001/RoadDamgeDetection.git
 ```
 ### change path 
 
-change the obj.data and obj.names according to the path of the data set.
+change the obj.data and obj.names according to the path of your dataset.
 
 ### Train
 
 run(in docker environment):
 
-```darknet detector train data/obj-GAN.data cfg/yolov4-custom-GRDDC2.cfg yolov4.conv.137```
+```darknet detector train data/obj.data cfg/yolov4-custom-GRDDC.cfg yolov4.conv.137```
 
 You can find more details of usage [here] (https://github.com/AlexeyAB/darknet)
 
@@ -40,4 +40,4 @@ python darknet.py
 
 ## Acknowledgements
 
-This work is partially supported by National Key R&D Program of China (2019YFB1310403), Shenzhen Science and Technology Innovation Council (JCYJ20170410171923840), and National Natural Science Foundation of China (U1613227, U1813216, 61806190).
+  This work is partially supported by National Key R&D Program of China (2019YFB1310403), Shenzhen Science and Technology Innovation Council (JCYJ20170410171923840), and National Natural Science Foundation of China (U1613227, U1813216, 61806190).
