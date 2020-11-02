@@ -1,19 +1,15 @@
 # RoadDamgeDetection
 ![IMAGE](https://github.com/ZhangXG001/Real-Time-Crop-Recognition/blob/master/IMG/network.jpg)
 
-In this work, a novel strategy for crop recognition in fields with high weed infestation levels is devised based on visual attention mechanism. It detects crop plants based on their saliency in the images, which is invariant to species of crops and weeds, and thus more generalized than features like color, shape and texture. The saliency of crop plants over surrounding weeds has been demonstrated in our experiment that the CNN model trained with a general saliency detection dataset (MSRA-B, containing no field images) can detect crop plants in general.
-
- A deep CNN framework is proposed to detect salient regions (crop plants) in field images based on the DSS architecture proposed by Hou et al (see reference [28] in our paper). The network possesses side-output structures with short connections for extracting multi-scale features, while taking advantage of Adaptive Affinity Fields to improve the segmentation at boundaries and fine structures. It is lightweight, efficient, and able to accurately segment crop plants from weedy backgrounds.
- 
-A field image dataset, CWF-788 (CWF is short for crop in weedy field), is created to train and evaluate the proposed method. It contains 788 images captured from cauliflower fields with high weed pressure. High-quality pixel-wise annotated label images are provided with the dataset. This dataset can be used for future researches and fair comparisons.
-
+Fast and accurate road damage detection is essential for the automatization of road inspection. This paper describes our solution submitted to the Global Road Damage Detection Challenge of the 2020 IEEE International Conference on Big Data, for typical road damage detection on digital images based on deep learning. The recently proposed YOLOv4 is chosen as the baseline network, while the effects of data augmentation, transfer learning, Optimized Anchors, and their combination are evaluated. We proposed a novel road damage data generation method based on a generative adversarial network, which can generate multi-class samples with a single model. The evaluation results demonstrate the effectiveness of different tricks and their combinations on the road damage detection task, which provides a reference for practical application.
+  
 ## Datesets
 
-We provide our CWF-788 dataset with two different resolutions,IMAGE400x300 with the resolution of 400x300 and IMAGE512x384 with the resolution of 512x384.
+You can find the IEEE BigData 2020 Global Road Damage Detection Challenge 2020 datasets here https://github.com/sekilab/RoadDamageDetector.
 
 ## Usage
 
-Please install Tensorflow and required packages first.
+Please install darknet first.
 
 ### Download our code.
 
@@ -53,9 +49,7 @@ About the CRF code we used, you can find it [here](https://github.com/Andrew-Qib
 
 ## Citation
 
-If you think this work is helpful, please cite
 
-Nan Li, Xiaoguang Zhang, Chunlong Zhang, Huiwen Guo, Zhe Sun, and Xinyu Wu, “Real-time crop recognition in transplanted fields with prominent weed growth: a visual-attention-based approach,” IEEE Access, 2019, 7(1): 185310-185321, DOI: 10.1109/ACCESS.2019.2942158
 
 
 ## Acknowledgements
