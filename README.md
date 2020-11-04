@@ -8,7 +8,7 @@ You can find the IEEE BigData 2020 Global Road Damage Detection Challenge 2020 d
 
 ## Usage
 
-Please install darknet first. you can install darknet following the introduction of https://github.com/AlexeyAB/darknet, or you can also use docker just pull darknet image simply by ```pull daisukekobayashi/darknet:gpu-cv-cc75```.(recommended)
+Please install darknet first. you can install darknet following the introduction of https://github.com/AlexeyAB/darknet, or you can also use docker just pull darknet image simply by ```docker pull daisukekobayashi/darknet:gpu-cv-cc75```.(recommended)
 
 ### Download the code.
 
