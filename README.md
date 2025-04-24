@@ -37,6 +37,18 @@ python darknet.py
 
 ## Citation
 
+@INPROCEEDINGS{9377923,
+  author={Zhang, Xiaoguang and Xia, Xuan and Li, Nan and Lin, Ma and Song, Junlin and Ding, Ning},
+  booktitle={2020 IEEE International Conference on Big Data (Big Data)}, 
+  title={Exploring the Tricks for Road Damage Detection with A One-Stage Detector}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={5616-5621},
+  keywords={Roads;Conferences;Transfer learning;Detectors;Big Data;Generative adversarial networks;Data models;road damage detection;deep learning;data augmentation;generative adversarial network},
+  doi={10.1109/BigData50022.2020.9377923}}
+
+
 
 ## Acknowledgements
 
